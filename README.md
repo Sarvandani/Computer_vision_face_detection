@@ -1,3 +1,9 @@
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+
+This is a simple Python code for face detection in the image. We can see how computer vision is able to detct my face in the image as follows:
+
+
 ```python
 import cv2
 import matplotlib.pyplot as plt
@@ -40,14 +46,18 @@ output_path = 'detected.jpg'
 cv2.imwrite(output_path, image)
 print(f"Output image saved as {output_path}")
 ```
+Output image saved as detected.jpg
+
+<img src="eifel.jpg">
+
+<img src="detected.jpg">
+
+
 
 
     
-![png](vision_files/vision_0_0.png)
-    
 
 
-    Output image saved as detected.jpg
 
 
 
