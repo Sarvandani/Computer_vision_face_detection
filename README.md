@@ -5,7 +5,7 @@
 
 This is a simple Python code for face detection in the image. We can see how computer vision is able to detect my face in the image as follows:
 
-
+------------------------
 ```python
 import cv2
 import matplotlib.pyplot as plt
